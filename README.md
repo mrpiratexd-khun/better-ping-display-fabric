@@ -1,3 +1,9 @@
+#DISCLAIMER
+I am not the official owner of this mod. I just ported the mod from Fabric-1.21.x to Fabric-26.2 using "Anthropic Claude". Since the owner didn't update this mod for a long time. I decided to update this mod by my self using A.I. 
+
+Here is the official source code of this mod:[![](https://github.com/vladmarica/better-ping-display-fabric)
+
+
 # Better Ping Display - Fabric Edition
 
 [![](https://img.shields.io/curseforge/dt/406343?style=for-the-badge&logo=curseforge&label=Downloads&color=rgb(241%2C%20100%2C%2054))](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric) [![](https://img.shields.io/modrinth/dt/better-ping-display-fabric?style=for-the-badge&logo=modrinth&logoColor=rgb(27%2C%20217%2C%20106)&label=Downloads&color=rgb(27%2C%20217%2C%20106))](https://modrinth.com/mod/better-ping-display-fabric)
