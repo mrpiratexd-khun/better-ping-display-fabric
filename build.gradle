@@ -1,0 +1,77 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version '1.14-SNAPSHOT'
+	id 'maven-publish'
+}
+
+version = "${minecraft_version}-${project.mod_version}"
+group = project.maven_group
+minecraft_version = project.minecraft_version
+
+repositories {
+	maven { url = "https://maven.shedaniel.me/" }
+	maven { url = "https://maven.terraformersmc.com/releases/" }
+	maven {
+		name 'Xander Maven'
+		url 'https://maven.isxander.dev/releases'
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	implementation("com.terraformersmc:modmenu:${project.modmenu_version}")
+	implementation "dev.isxander:yet-another-config-lib:${project.yacl_version}"
+	testImplementation 'junit:junit:4.13'
+}
+
+processResources {
+	duplicatesStrategy = 'WARN'
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.mod_version,
+				"minecraft_version": minecraft_version
+	}
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+tasks.withType(JavaCompile) {
+	options.encoding = "UTF-8"
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+}
+
+jar {
+	from "LICENSE"
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+	repositories {
+		// mavenLocal()
+	}
+}
+
+sourceSets {
+	main.java {
+		include 'com/vladmarica/betterpingdisplay/**/*'
+		exclude 'net/fabricmc/*'
+	}
+	test.java {
+		include 'com/vladmarica/betterpingdisplay/**/*'
+	}
+}
+
+test {
+	useJUnit()
+}
