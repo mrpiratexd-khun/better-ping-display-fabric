@@ -1,4 +1,4 @@
-#DISCLAIMER
+# DISCLAIMER
 I am not the official owner of this mod. I just ported the mod from Fabric-1.21.x to Fabric-26.2 using "Anthropic Claude". Since the owner didn't update this mod for a long time. I decided to update this mod by my self using A.I. 
 
 Here is the official source code of this mod:[![](https://github.com/vladmarica/better-ping-display-fabric)
