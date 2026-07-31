@@ -11,7 +11,6 @@ Here is the official source code of this mod: https://github.com/vladmarica/bett
 
 A [Fabric](https://fabricmc.net/) mod for Minecraft to display each player's ping in the player list as a number.
 
-Go [**here**](https://github.com/vladmarica/better-ping-display) for the Forge/NeoForge edition of this mod.
 
 ![](https://vladmarica.com/assets/minecraft/better-ping-display.png)
 
