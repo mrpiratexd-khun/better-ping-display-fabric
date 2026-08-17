@@ -6,7 +6,7 @@ Here is the official source code of this mod: https://github.com/vladmarica/bett
 
 # Better Ping Display - Fabric Edition
 
-[![](https://img.shields.io/modrinth/dt/better-ping-display-remake?style=for-the-badge&logo=modrinth&logoColor=rgb(27%2C%20217%2C%20106)&label=Downloads&color=rgb(27%2C%20217%2C%20106))](https://modrinth.com/mod/better-ping-display-remake)
+[![](https://img.shields.io/curseforge/dt/better-ping-display-remake?style=for-the-badge&logo=curseforge&logoColor=rgb(27%2C%20217%2C%20106)&label=Downloads&color=rgb(27%2C%20217%2C%20106))](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-remake)
 
 
 A [Fabric](https://fabricmc.net/) mod for Minecraft to display each player's ping in the player list as a number.
