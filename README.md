@@ -6,7 +6,7 @@ Here is the official source code of this mod: https://github.com/vladmarica/bett
 
 # Better Ping Display - Fabric Edition
 
-[![](https://img.shields.io/curseforge/dt/better-ping-display-remake?style=for-the-badge&logo=curseforge&logoColor=rgb(27%2C%20217%2C%20106)&label=Downloads&color=rgb(27%2C%20217%2C%20106))](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-remake)
+[![](https://img.shields.io/curseforge/dt/406343?style=for-the-badge&logo=curseforge&label=Downloads&color=rgb(241%2C%20100%2C%2054))]([https://www.curseforge.com/minecraft/mc-mods/better-ping-display-remake])
 
 
 A [Fabric](https://fabricmc.net/) mod for Minecraft to display each player's ping in the player list as a number.
@@ -26,7 +26,7 @@ This mod's config file is `betterpingdisplay.json`. It contains the following op
 | pingTextColor  | `#A0A0A0`  | The ping text color to use. Only works whens `autoColorPingText` is false |
 | pingTextFormatString | `%dms` | The format string for ping text. Must include a `%d`, which will be replaced dynamically by the actual ping value.
 
-> As of mod version **1.2.0**, a GUI configuration screen is available if you have
+> As of mod version **1.3.0**, a GUI configuration screen is available if you have
 [Mod Menu](https://modrinth.com/mod/modmenu) and [YACL](https://modrinth.com/mod/yacl) installed. These are optional dependencies
 > and this mod will continue to work normally without them installed. 
 
