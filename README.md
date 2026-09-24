@@ -35,7 +35,7 @@ This mod's config file is `betterpingdisplay.json`. It contains the following op
 | <code>prioritizeSelfInTabList</code>                                                                                                       |<code>true</code> |Always shows your own name at the top of the tab list, regardless of your rank or tag.                           |
 | <code>showSelfPrefix</code>                                                                                                                |<code>false</code> |Shows a client-side-only custom tag provide by this mod in front of your own name in the tab list.               |
 
->   As of mod version **<span>Dappled_Forest</span>**.1.6.0**, a GUI configuration screen is available if you have [Mod Menu](https://modrinth.com/mod/modmenu) and [YACL](https://modrinth.com/mod/yacl) installed. These are optional dependencies and this mod will continue to work normally without them installed.
+>   As of mod version **<span>Dappled_Forest</span>**.1.6.0, a GUI configuration screen is available if you have [Mod Menu](https://modrinth.com/mod/modmenu) and [YACL](https://modrinth.com/mod/yacl) installed. These are optional dependencies and this mod will continue to work normally without them installed.
 
 ![image](https://media.forgecdn.net/attachments/description/1644760/description_786bca32-bf8f-41f0-b0cd-99fc465f5b68.png)
 
